@@ -3,6 +3,15 @@ import Navbar from "../components/Navbar";
 import Footer from "../components/Footer";
 import Card from "../components/Card";
 import Button from "../components/Button";
+import hand from "../assets/hand.svg";
+import paypal from "../assets/paypal.svg";
+import googlePlay from "../assets/googlePlay.svg";
+import appStore from "../assets/appStore.svg";
+import scan from "../assets/scan.svg";
+import airbnb from "../assets/airbnb.svg";
+import binance from "../assets/binance.svg";
+import coinbase from "../assets/coinbase.svg";
+import dropbox from "../assets/dropbox.svg";
 
 function Home() {
   return (
@@ -45,7 +54,7 @@ function Home() {
               </p>
             </div>
             <div className=" md:flex hidden  w-full">
-              <img src="./src/assets/hand.svg" alt="" />
+              <img src={hand} alt="" />
             </div>
           </div>
         </section>
@@ -154,7 +163,7 @@ function Home() {
           <div className="absolute -left-32 top-1/2 transform -translate-y-1/2 w-[300px] h-[500px] bg-gradient-to-br from-cyan-400 to-transparent rounded-full blur-[150px] opacity-40"></div>
           <div className="flex items-center justify-between">
             <div className="w-full md:w-2/5">
-              <img src="./src/assets/paypal.svg" alt="" />
+              <img src={paypal} alt="" />
             </div>
             <div className="w-full md:w-3/6">
               <h2 className="text-white text-[2.5rem] font-semibold">
@@ -166,8 +175,8 @@ function Home() {
                 integer platea placerat.
               </p>
               <div className="flex items-center space-x-6">
-                <img src="./src/assets/appStore.png" alt="" />
-                <img src="./src/assets/appStore.png" alt="" />
+                <img src={googlePlay} alt="" />
+                <img src={appStore} alt="" />
               </div>
             </div>
           </div>
@@ -186,7 +195,7 @@ function Home() {
               <Button>Get Started</Button>
             </div>
             <div className="w-full md:w-5/10">
-              <img src="./src/assets/scan.svg" alt="" />
+              <img src={scan} alt="" />
             </div>
           </div>
         </section>
@@ -261,10 +270,10 @@ function Home() {
 
         <section className=" md:mx-20 ">
           <div className="grid md:grid-cols-4 items-center justify-center mx-14 gap-5">
-            <img src="./src/assets/airbnb.svg" alt="" />
-            <img src="./src/assets/binance.svg" alt="" />
-            <img src="./src/assets/coinbase.svg" alt="" />
-            <img src="./src/assets/dropbox.svg" alt="" />
+            <img src={airbnb} alt="" />
+            <img src={binance} alt="" />
+            <img src={coinbase} alt="" />
+            <img src={dropbox} alt="" />
           </div>
         </section>
 
