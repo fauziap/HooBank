@@ -11,7 +11,7 @@ function Navbar() {
           <div className="flex -ml-10 items-center gap-2">
             <img
               className="w-6"
-              src="./src/assets/logo.svg"
+              src="./assets/logo.svg"
               alt="HooBank Logo"
             />
             <h1 className="text-xl font-bold">
