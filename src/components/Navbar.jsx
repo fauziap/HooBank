@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import {logo} from "./assets/logo.svg";
 
 function Navbar() {
   const [isOpen, setIsOpen] = useState(false);
@@ -11,7 +12,7 @@ function Navbar() {
           <div className="flex -ml-10 items-center gap-2">
             <img
               className="w-6"
-              src="./assets/logo.svg"
+              src={logo}
               alt="HooBank Logo"
             />
             <h1 className="text-xl font-bold">
