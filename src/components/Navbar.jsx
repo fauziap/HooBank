@@ -22,30 +22,30 @@ function Navbar() {
         </a>
 
         {/* Desktop Menu */}
-        <div className="hidden lg:flex text-sm font-light gap-10">
+        <div className="hidden lg:flex text-sm font-medium gap-10">
           <a
-            href="#"
+            href="#home"
             className="transition-all duration-300 hover:text-cyan-500"
           >
             Home
           </a>
           <a
-            href="#"
-            className="transition-all duration-300 hover:text-cyan-500"
-          >
-            About Us
-          </a>
-          <a
-            href="#"
+            href="#features"
             className="transition-all duration-300 hover:text-cyan-500"
           >
             Features
           </a>
           <a
-            href="#"
+            href="#product"
             className="transition-all duration-300 hover:text-cyan-500"
           >
-            Solution
+            Product
+          </a>
+          <a
+            href="#clients"
+            className="transition-all duration-300 hover:text-cyan-500"
+          >
+            Clients
           </a>
         </div>
 
@@ -86,28 +86,28 @@ function Navbar() {
           <div className="absolute top-24 left-0 right-0 bg-gray-800 p-4 z-50 lg:hidden">
             <div className="flex flex-col items-center space-y-4">
               <a
-                href="#"
+                href="#home"
                 className="text-white text-sm transition-all duration-300 hover:text-cyan-500"
               >
                 Home
               </a>
               <a
-                href="#"
-                className="text-white text-sm transition-all duration-300 hover:text-cyan-500"
-              >
-                About Us
-              </a>
-              <a
-                href="#"
+                href="#features"
                 className="text-white text-sm transition-all duration-300 hover:text-cyan-500"
               >
                 Features
               </a>
               <a
-                href="#"
+                href="#product"
                 className="text-white text-sm transition-all duration-300 hover:text-cyan-500"
               >
-                Solution
+                Product
+              </a>
+              <a
+                href="#clients"
+                className="text-white text-sm transition-all duration-300 hover:text-cyan-500"
+              >
+                Clients
               </a>
             </div>
           </div>

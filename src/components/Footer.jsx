@@ -38,39 +38,39 @@ function Footer() {
             </div>
           </div>
 
-          {/* Section 2: Links */}
+
           <div className="w-full md:w-3/5">
             <div className="md:flex grid grid-cols-2 md:flex-row justify-between space-y-0 md:space-y-0 md:space-x-8">
-              {/* Useful Links */}
+
               <div>
                 <h3 className="text-md font-semibold mb-2">Useful Links</h3>
                 <ul className="space-y-2 text-sm">
-                  <li><a href="#">Content</a></li>
-                  <li><a href="#">How it Works</a></li>
-                  <li><a href="#">Create</a></li>
-                  <li><a href="#">Explore</a></li>
-                  <li><a href="#">Terms & Services</a></li>
+                  <li><a href="#" className="hover:text-cyan-500">Content</a></li>
+                  <li><a href="#" className="hover:text-cyan-500">How it Works</a></li>
+                  <li><a href="#" className="hover:text-cyan-500">Create</a></li>
+                  <li><a href="#" className="hover:text-cyan-500">Explore</a></li>
+                  <li><a href="#" className="hover:text-cyan-500">Terms & Services</a></li>
                 </ul>
               </div>
               
-              {/* Community Links */}
+
               <div>
                 <h3 className="text-md font-semibold mb-2">Community</h3>
                 <ul className="space-y-2 text-sm">
-                  <li><a href="#">Help Center</a></li>
-                  <li><a href="#">Partners</a></li>
-                  <li><a href="#">Suggestions</a></li>
-                  <li><a href="#">Blog</a></li>
-                  <li><a href="#">Newsletters</a></li>
+                  <li><a href="#" className="hover:text-cyan-500">Help Center</a></li>
+                  <li><a href="#" className="hover:text-cyan-500">Partners</a></li>
+                  <li><a href="#" className="hover:text-cyan-500">Suggestions</a></li>
+                  <li><a href="#" className="hover:text-cyan-500">Blog</a></li>
+                  <li><a href="#" className="hover:text-cyan-500">Newsletters</a></li>
                 </ul>
               </div>
               
-              {/* Partner Links */}
+
               <div>
                 <h3 className="text-md mt-4 md:mt-0 font-semibold mb-2">Partner</h3>
                 <ul className="space-y-2 text-sm">
-                  <li><a href="#">Our Partner</a></li>
-                  <li><a href="#">Become a Partner</a></li>
+                  <li><a href="#" className="hover:text-cyan-500">Our Partner</a></li>
+                  <li><a href="#" className="hover:text-cyan-500">Become a Partner</a></li>
                 </ul>
               </div>
             </div>

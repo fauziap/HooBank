@@ -20,7 +20,7 @@ function Home() {
         <Navbar />
       </header>
       <main className="overflow-hidden">
-        <section className="md:file:relative">
+        <section id="home" className="md:file:relative">
           <div className="absolute -left-32 top-1/2 transform -translate-y-1/2 w-[300px] h-[500px] bg-gradient-to-br from-gray-400 to-transparent rounded-full blur-[150px] opacity-60"></div>
 
           <div className="flex md:ml-20 items-center">
@@ -86,7 +86,7 @@ function Home() {
           </div>
         </div>
 
-        <section className="pt-40 pb-32">
+        <section id="features" className="pt-40 pb-32">
           <div className="flex md:mx-20 items-center justify-center">
             <div className="w-full md:w-5/10">
               <h2 className="text-white text-[2.5rem] font-semibold">
@@ -121,7 +121,7 @@ function Home() {
               </div>
               <div data-aos="fade-up" data-aos-delay="200">
                 <Card>
-                  <div className="flex my-4 p-4 items-start gap-6 bg-gray-900 rounded-lg shadow-lg">
+                  <div className="flex my-4 p-4 items-start gap-6 rounded-lg shadow-lg">
                     <div className="flex-shrink-0 w-20 h-20 flex items-center justify-center bg-gray-800 rounded-full">
                       <i className="fa-solid fa-shield text-4xl text-cyan-500"></i>
                     </div>
@@ -159,7 +159,7 @@ function Home() {
           </div>
         </section>
 
-        <section className="relative md:mx-20">
+        <section id="product" className="relative md:mx-20">
           <div className="absolute -left-32 top-1/2 transform -translate-y-1/2 w-[300px] h-[500px] bg-gradient-to-br from-cyan-400 to-transparent rounded-full blur-[150px] opacity-40"></div>
           <div className="flex items-center justify-between">
             <div className="w-full md:w-2/5">
@@ -200,7 +200,7 @@ function Home() {
           </div>
         </section>
 
-        <section className="relative mt-20">
+        <section id="clients" className="relative mt-20">
           <div className="absolute -right-32  transform -translate-y-1/2 w-[400px] h-[600px] bg-gradient-to-br from-cyan-400 to-transparent rounded-full blur-[150px] opacity-50"></div>
           <div className="md:mx-20">
             <div className="flex items-center justify-between mb-20">
@@ -278,7 +278,7 @@ function Home() {
         </section>
 
         <section className="md:mx-20 my-20">
-          <Card>
+          <Card className='bg-gradient-to-br from-gray-700 to-gray-950'>
             <div className="flex py-10 px-20 items-center justify-between">
               <div>
                 <h2 className="text-white text-[2.5rem] font-semibold">

@@ -1,8 +1,8 @@
 import React from "react";
 
-function Card({ children, className = "bg-gradient-to-br from-gray-700 to-gray-950" }) {
+function Card({ children, className }) {
   return (
-    <div className={`rounded-xl ${className} shadow-md`}>{children}</div>
+    <div className={`rounded-xl hover:bg-gradient-to-br from-gray-700 to-gray-950 ${className} shadow-md`}>{children}</div>
   );
 }
 
